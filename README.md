@@ -1,2 +1,2 @@
 # OCI-VISION
-Repositório com todos os labs referentes ao OCI Vision
+Repositório com todos os labs referentes ao OCI Vision.
