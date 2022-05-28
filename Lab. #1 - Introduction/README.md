@@ -57,7 +57,7 @@ Na página do Vision, selecione “Document AI” no menu de navegação à esqu
 #### Recursos que você pode testar:
 
 Recurso | Descrição | Detalhes no Console
-:-------: :--------:  :-----------------:
+:-------: | :--------: | :-----------------:
 OCR (reconhecimento óptico de caracteres) | Localiza e digitaliza informações de texto de imagens | O texto aparecerá sob o cabeçalho "texto bruto" do painel de resultados do console [Referência](https://oracle.github.io/learning-library/oci-library/oci-hol/oci-artificial-intelligence/ai-vision/analyze-vision/images/ocr.png)
 
 
