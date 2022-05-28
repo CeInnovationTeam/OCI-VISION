@@ -33,7 +33,7 @@ Em seguida, clique em Criar
 
 ![_](./Images/IMG_004.PNG)
 
-### 1. Carregar arquivos de imagem no bucket de armazenamento
+### 2. Carregar arquivos de imagem no bucket de armazenamento
 
  - clique no nome do bucket
  - A janela de detalhes deve estar visível. Clique em Carregar
@@ -42,13 +42,13 @@ Em seguida, clique em Criar
 
  Clique em Carregar e navegue até o arquivo que você deseja carregar.
 
- ## 1. Demo Vision Service using the OCI Console
+ ##  Demo Vision Service using the OCI Console
 
  Navegue até a página do Vision do console OCI
 
 ![_](./Images/IMG_006.PNG)
 
-#### Use os recursos do Document AI
+#### 3. Use os recursos do Document AI
 
 Na página do Vision, selecione “Document AI” no menu de navegação à esquerda e forneça um documento ou imagem do armazenamento local ou armazenamento de objetos OCI. Isso invoca a API analyzeDocument depois que a imagem é fornecida. O texto bruto extraído pelo nosso modelo multi-tenant pré-treinado é exibido à direita.
 
@@ -64,4 +64,18 @@ Classificação do idioma | Classifica o idioma do documento com base em recurso
 Extração de tabela | Extrai conteúdo em formato tabular, mantendo as relações linha/coluna das células | Alterne para a guia Tabela para obter informações da tabela [Referência](https://oracle.github.io/learning-library/oci-library/oci-hol/oci-artificial-intelligence/ai-vision/analyze-vision/images/table-extraction.png)
 Saída PDF pesquisável | Incorpora uma camada transparente em cima da imagem do documento em formato PDF para torná-lo pesquisável por palavras-chave | Você precisa testar em um documento PDF para usar esse recurso. Quando você selecionar um PDF, o botão PDF pesquisável poderá ser clicado. Clicar nele fará o download de um PDF OCR para o seu computador. [Referência](https://oracle.github.io/learning-library/oci-library/oci-hol/oci-artificial-intelligence/ai-vision/analyze-vision/images/searchable-pdf-output.png)
 
+### 4 . Usar recursos de análise de imagem
+
+Na página do Vision, selecione "Classificação de imagem" ou "Detecção de objeto" no menu de navegação à esquerda e forneça uma imagem do armazenamento local ou do armazenamento de objetos OCI. Isso invoca a API analyzeImage depois que a imagem é fornecida.
+
+![_](./Images/IMG_008.PNG)
+
+Recursos que você pode testar:
+
+Recurso | Descrição | Detalhes no Console
+:-------: | :--------: | :-----------------:
+Classificação de imagem | Categoriza objetos em uma imagem | Selecione "Classificação de imagem". Rótulos e pontuações de confiança aparecerão no painel Resultados. [Referência](https://oracle.github.io/learning-library/oci-library/oci-hol/oci-artificial-intelligence/ai-vision/analyze-vision/images/image-classification.png)
+Detecção de objetos | Localiza e identifica objetos dentro de uma imagem | Selecione "Detecção de Objetos". Objetos, pontuação de confiança e caixa delimitadora realçada aparecerão no painel Resultados. Clicar em um dos rótulos no painel de resultados também destacará onde na imagem o objeto foi detectado. [Referência](https://oracle.github.io/learning-library/oci-library/oci-hol/oci-artificial-intelligence/ai-vision/analyze-vision/images/object-detection.png)
+
+## Parabéns por concluir este laboratório!
 
