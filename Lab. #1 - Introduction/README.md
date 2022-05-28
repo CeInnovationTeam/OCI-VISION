@@ -18,4 +18,4 @@ Os recursos do serviço Vision são divididos tematicamente entre:
 
  Primeiro, no menu OCI Services, clique em Object Storage.
 
- ![_](./Images/IMG00_1.PNG)
+ ![_](./Images/IMG_001.PNG)
